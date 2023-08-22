@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;900&display=swap');
+
+@import '../../public/nprogress.css';
+
+:root {
+  --primary: #9155fd;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --background-white: #fcfaff !important;
+  --nav-height: 6rem;
+  --sidebarWidthFull: 26.2rem;
+  --cardShadow: 0px 0px 15px 1.5px rgba(0, 0, 0, 0.08);
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
+  background-color: var(--background-white);
+}
+
+@layer components {
+  .card-title-80 {
+    @apply card-title opacity-80;
+  }
+  .sideText {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+  .sidebar {
+    @apply w-[--sidebarWidthFull] h-full transition-transform -translate-x-full sm:translate-x-0;
+  }
+  .sidebarElementActive {
+    background: linear-gradient(
+      270deg,
+      #9155fd 23.7%,
+      rgba(145, 85, 253, 0.63) 120.04%
+    );
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  .btn_page_lg {
+    @apply btn btn-primary btn-outline btn-lg;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--background-white);
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+.sidebarMask {
+  height: 50rem;
+  width: var(--sidebarWidthFull);
+}
+
+th {
+  font-size: 1.2rem !important;
+  word-wrap: break-word !important;
+  white-space: break-spaces !important;
+  text-align: center;
+  background-color: var(--background-white) !important;
+  line-height: 1.5rem !important;
+}
+
+td,
+td * {
+  font-size: 1.2rem !important;
+  text-align: center;
+}

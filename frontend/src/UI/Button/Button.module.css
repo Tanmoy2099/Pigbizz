@@ -1,0 +1,10 @@
+/* .button { */
+/* opacity: 1 !important; */
+/* background-color: var(--primary); */
+/* border-radius: 2px; */
+/* border-color: var(--primary); */
+/* } */
+
+.button:hover {
+  background-color: rgba(123, 53, 255, 0.753);
+}

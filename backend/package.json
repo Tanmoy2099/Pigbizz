@@ -1,0 +1,57 @@
+{
+  "name": "pigbizz_backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./build/server.js",
+    "dev": "tsx watch ./src/server.ts",
+    "build": "npx tsc",
+    "pstudio": "npx prisma studio",
+    "migrate": "npx prisma migrate dev",
+    "seed": "npx prisma db seed"
+  },
+  "prisma": {
+    "seed": "ts-node ./src/utilServer/prismaSEED/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "18.15.11",
+    "@types/socket.io": "^3.0.2",
+    "@types/uuid": "^9.0.2",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.3",
+    "socket.io": "^4.7.1",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/node-cron": "^3.0.8",
+    "@types/nodemailer": "^6.4.8",
+    "@types/validator": "^13.7.17",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "prisma": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7"
+  }
+}

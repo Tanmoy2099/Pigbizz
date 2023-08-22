@@ -1,0 +1,83 @@
+import React from "react";
+import SignInUpBackground from "@/UI/signInUpBackground/SignInUpBackground";
+import { TextInput } from "@/UI/input/TextInput";
+// import { Form, FormikProps } from "formik";
+import { useField, Form, FormikProps, Formik } from "formik";
+import Checkbox from "@/UI/input/RememberMe";
+import Button from "@/UI/Button/Button";
+import Link from "next/link";
+
+interface Values {
+  firstName: string;
+  lastName: string;
+  email: string;
+}
+
+const Signup = () => {
+  const title = (
+    <p className="pb-2 pt-1">
+      Please signup to your account and start the adventure
+    </p>
+  );
+
+  return (
+    <>
+      <div>
+        <div className="flex h-[100vh] w-[100vw] justify-center items-center">
+          <SignInUpBackground
+            className="h-[45rem] w-[38rem] bg-[#fff] bg-opacity-70"
+            title={title}
+          >
+            {/* <TextInput placeholder="Email" type="text" /> */}
+
+            <Formik
+              initialValues={{
+                email: "",
+                firstName: "red",
+                lastName: "",
+              }}
+              onSubmit={(values, actions) => {
+                setTimeout(() => {
+                  alert(JSON.stringify(values, null, 2));
+                  actions.setSubmitting(false);
+                }, 1000);
+              }}
+            >
+              {(props: FormikProps<Values>) => (
+                <Form className="form-control w-full my-auto">
+                  <TextInput
+                    placeholder="Email or Phone"
+                    type="text"
+                    name="email"
+                    className="my-1 text-[1.5rem] bg-[#F5F5F5]"
+                  />
+                  <TextInput
+                    placeholder="Password"
+                    type="password"
+                    name="password"
+                    className="my-1 text-[1.5rem] bg-[#F5F5F5]"
+                  />
+                  <TextInput
+                    placeholder="Confirm Password"
+                    type="password"
+                    name="confirmPassword"
+                    className="my-1 text-[1.5rem] bg-[#F5F5F5]"
+                  />
+
+                  <Button
+                    type="submit"
+                    className="btn-black my-auto text-[1.2rem] h-[3rem]"
+                  >
+                    LOG IN
+                  </Button>
+                </Form>
+              )}
+            </Formik>
+          </SignInUpBackground>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Signup;

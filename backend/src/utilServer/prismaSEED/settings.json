@@ -1,0 +1,6 @@
+{
+    "low_medicine_parameter": 20,
+    "low_feed_parameter": 20,
+    "default_pagination_limit": 9,
+    "small_list_pagination_limit": 5
+}

@@ -1,0 +1,19 @@
+.background_image{
+    z-index: -15;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.background_pig_image{
+    position: absolute;
+    right: 3%;
+    z-index: -14;
+    bottom: 1%;
+    height: 40rem;
+    width: 35rem;
+    
+
+}
+

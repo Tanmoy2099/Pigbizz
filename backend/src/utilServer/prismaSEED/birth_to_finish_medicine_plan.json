@@ -1,0 +1,122 @@
+[
+    {
+        "day": "3",
+        "date": "",
+        "dose": "IRON",
+        "imSubcutOral": "IM",
+        "ml": "1",
+        "brand": ""
+    },
+    {
+        "day": "4",
+        "date": "",
+        "dose": "B-COMPLEX",
+        "imSubcutOral": "IM",
+        "ml": "1",
+        "brand": ""
+    },
+    {
+        "day": "10",
+        "date": "",
+        "dose": "DEWORMING",
+        "imSubcutOral": "ORAL",
+        "ml": "1",
+        "brand": "PEPRAZINE"
+    },
+    {
+        "day": "11",
+        "date": "",
+        "dose": "LIV-52",
+        "imSubcutOral": "ORAL",
+        "ml": "1",
+        "brand": ""
+    },
+    {
+        "day": "12",
+        "date": "",
+        "dose": "LIV-52",
+        "imSubcutOral": "ORAL",
+        "ml": "1",
+        "brand": ""
+    },
+    {
+        "day": "13",
+        "date": "",
+        "dose": "IRON",
+        "imSubcutOral": "IM",
+        "ml": "1",
+        "brand": ""
+    },
+    {
+        "day": "14",
+        "date": "",
+        "dose": "B-COMPLEX",
+        "imSubcutOral": "IM",
+        "ml": "2",
+        "brand": ""
+    },
+    {
+        "day": "30",
+        "date": "",
+        "dose": "IRON",
+        "imSubcutOral": "IM",
+        "ml": "2",
+        "brand": ""
+    },
+    {
+        "day": "35",
+        "date": "",
+        "dose": "DEWORMING",
+        "imSubcutOral": "IM",
+        "ml": "2",
+        "brand": "PEPRAZINE"
+    },
+    {
+        "day": "36",
+        "date": "",
+        "dose": "LIV-52",
+        "imSubcutOral": "IM",
+        "ml": "3",
+        "brand": ""
+    },
+    {
+        "day": "37",
+        "date": "",
+        "dose": "LIV-52",
+        "imSubcutOral": "IM",
+        "ml": "3",
+        "brand": ""
+    },
+    {
+        "day": "60",
+        "date": "",
+        "dose": "SWINE FEVER VACC*",
+        "imSubcutOral": "SUBCUT",
+        "ml": "1",
+        "brand": ""
+    },
+    {
+        "day": "82",
+        "date": "",
+        "dose": "DEWORMING",
+        "imSubcutOral": "ORAL",
+        "ml": "2",
+        "brand": "FALBENDAZOLE"
+    },
+    {
+        "day": "83",
+        "date": "",
+        "dose": "LIV-52",
+        "imSubcutOral": "ORAL",
+        "ml": "5",
+        "brand": ""
+    },
+    {
+        "day": "83",
+        "date": "",
+        "dose": "LIV-52",
+        "imSubcutOral": "ORAL",
+        "ml": "5",
+        "brand": ""
+    }
+]

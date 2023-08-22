@@ -1,0 +1,52 @@
+[
+    {
+        "days": "1 to 3",
+        "quantity": "1.25 kg",
+        "feedType": "breeder"
+    },
+    {
+        "days": "4 to 100",
+        "quantity": "2.4 kg",
+        "feedType": "breeder"
+    },
+    {
+        "days": "100 to 112",
+        "quantity": "3 kg",
+        "feedType": "mix"
+    },
+    {
+        "days": "113",
+        "quantity": "1.25 kg",
+        "feedType": "mix"
+    },
+    {
+        "days": "Farrowing1",
+        "quantity": "1.25 kg",
+        "feedType": "mix"
+    },
+    {
+        "days": "Farrowing2",
+        "quantity": "1.25 kg",
+        "feedType": "mix"
+    },
+    {
+        "days": "Farrowing3",
+        "quantity": "3.5 kg",
+        "feedType": "breeder + lactation"
+    },
+    {
+        "days": "Farrowing4",
+        "quantity": "3.5 kg",
+        "feedType": "breeder + lactation"
+    },
+    {
+        "days": "Farrowing5",
+        "quantity": "3.5 kg",
+        "feedType": "breeder + lactation"
+    },
+    {
+        "days": "Weaning",
+        "quantity": "2.25 kg + 600 gm",
+        "feedType": "lactation"
+    }
+]
